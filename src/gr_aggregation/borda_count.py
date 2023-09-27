@@ -1,5 +1,5 @@
-from user_items import UserItems
-from ranking import Ranking
+from gr_aggregation.user_items import UserItems
+from gr_aggregation.ranking import Ranking
 from collections import defaultdict
 
 class BordaCount:
