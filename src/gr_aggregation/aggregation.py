@@ -1,4 +1,4 @@
-from src.gr_aggregation.completeness import Completeness
+from .completeness import Completeness
 from .borda_count import BordaCount
 
 
