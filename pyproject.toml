@@ -1,6 +1,6 @@
 [project]
 name = "gr_aggregation"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Ariel Smith", email="arielsmithzerega@gmail.com" },
 ]
