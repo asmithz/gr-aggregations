@@ -12,5 +12,5 @@ def group_data_4():
     ]
     return new_data
     
-def test_borda_1(group_data_4):
+def test_completeness_1(group_data_4):
     assert start_completeness(group_data_4, 1) == {'H': 0.892, 'E': 0.89, 'J': 0.878, 'F': 0.877, 'A': 0.867, 'D': 0.864, 'I': 0.833, 'G': 0.814, 'B': 0.766, 'C': 0.71}
