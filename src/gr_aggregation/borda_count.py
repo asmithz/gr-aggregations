@@ -1,6 +1,7 @@
-from gr_aggregation.user_items import UserItems
-from gr_aggregation.ranking import Ranking
 from collections import defaultdict
+
+from .ranking import Ranking
+from .user_items import UserItems
 
 class BordaCount:
     def __init__(self, borda_items: list, factor: int):

@@ -1,4 +1,5 @@
-from gr_aggregation.user_items import UserItems
+from .user_items import UserItems
+
 
 class Ranking:
     def __init__(self, user_items: UserItems, factor: int) -> None:
